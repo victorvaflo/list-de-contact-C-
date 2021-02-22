@@ -1,0 +1,31 @@
+﻿<Window x:Class="Log_in.Contact"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Log_in"
+        mc:Ignorable="d"
+        Title="Contact" Height="450" Width="800">
+    <Grid>
+        <Image Source="image/fond d'ecran.jpg" Stretch="UniformToFill" ></Image>
+        <Rectangle HorizontalAlignment="Left" Height="270" Margin="213,138,0,0" Stroke="Black" VerticalAlignment="Top" Width="570" Fill="White" Opacity="0.25" RadiusX="10" RadiusY="10"/>
+        <Label Content="Prenom" HorizontalAlignment="Left" Margin="225,149,0,0" VerticalAlignment="Top" Width="121" RenderTransformOrigin="0.438,0.082" FontSize="18"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Height="36" Margin="229,192,0,0" VerticalAlignment="Top" Width="68" RenderTransformOrigin="0.145,0.539" FontSize="18"/>
+        <Label Content="Email" HorizontalAlignment="Left" Height="42" Margin="228,232,0,0" VerticalAlignment="Top" Width="89" FontSize="18"/>
+        <Label Content="Mot de passe" HorizontalAlignment="Left" Height="37" Margin="225,274,0,0" VerticalAlignment="Top" Width="147" FontSize="18"/>
+        <Label Content="Confirmer mot de passe" HorizontalAlignment="Left" Height="35" Margin="219,310,0,0" VerticalAlignment="Top" Width="210" FontSize="18"/>
+        <TextBox Name="Prenom" HorizontalAlignment="Left" Height="26" Margin="377,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261"/>
+        <TextBox Name="Nom" HorizontalAlignment="Left" Height="26" Margin="380,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260"/>
+        <TextBox Name="Email" HorizontalAlignment="Left" Height="26" Margin="381,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259"/>
+        <PasswordBox Name="MotPass" HorizontalAlignment="Left" Height="26" Margin="381,272,0,0" VerticalAlignment="Top" Width="260"/>
+        <PasswordBox Name="ConfigPass" HorizontalAlignment="Left" Height="26" Margin="429,315,0,0" VerticalAlignment="Top" Width="212" ></PasswordBox>
+        <Button Content="Inscription" HorizontalAlignment="Left" Height="50" Margin="570,350,0,0" VerticalAlignment="Top" Width="204" FontSize="36" Background="#FF0D1D96" Click="Inscription_Click"/>
+        <Label Content="Créer un compte" HorizontalAlignment="Left" Margin="14,1,0,0" VerticalAlignment="Top" Height="64" Width="404" FontSize="48"/>
+        <Label Content="C'est rapide et facile." HorizontalAlignment="Left" Height="58" Margin="5,73,0,0" VerticalAlignment="Top" Width="417" FontSize="36"/>
+        <Button Content="Annuler" HorizontalAlignment="Left" Height="52" Margin="5,346,0,0" VerticalAlignment="Top" Width="156" FontSize="36" Background="#FFC51616" Click="Annuler_Click"/>
+        <Image HorizontalAlignment="Left" Height="147" Margin="16,140,0,0" VerticalAlignment="Top" Width="148" Source="image/Default-User.png"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="MsgErr" HorizontalAlignment="Left" TextWrapping="Wrap" TextAlignment="Center" Text="" VerticalAlignment="Top" Margin="229,350,0,0" Height="26" Width="324" FontWeight="Bold" TextDecorations="{x:Null}" FontStyle="Italic" Foreground="#FFA90808" FontSize="16"/>
+
+    </Grid>
+</Window>

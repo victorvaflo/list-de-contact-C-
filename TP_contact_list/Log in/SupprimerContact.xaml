@@ -1,0 +1,19 @@
+﻿<Window x:Class="Log_in.SupprimerContact"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Log_in"
+        mc:Ignorable="d"
+        Title="SupprimerContact" Height="348.724" Width="525.406">
+    <Grid>
+        <Image Source="image/fond d'ecran.jpg" Stretch="UniformToFill" Margin="0,0,-0.4,0"></Image>
+        <Label Content="Preom" HorizontalAlignment="Left" Height="39" Margin="26,93,0,0" VerticalAlignment="Top" Width="137" FontSize="24" FontWeight="Bold"/>
+        <Label  Content="Nom" HorizontalAlignment="Left" Height="46" Margin="26,175,0,0" VerticalAlignment="Top" Width="137" FontSize="24" FontWeight="Bold"/>
+        <TextBox Name="Preom"  HorizontalAlignment="Left" Height="39" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="229" Margin="199,93,0,0" FontSize="18"/>
+        <TextBox Name="Nom" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="229" Margin="199,175,0,0" FontSize="18"/>
+        <Button Content="CANCEL" HorizontalAlignment="Left" VerticalAlignment="Top" Width="164" Margin="56,246,0,0" Height="63" FontSize="24" FontWeight="Bold" Click="CANCEL_CLICK"/>
+        <Button Content="SUPPRIMER" HorizontalAlignment="Left" VerticalAlignment="Top" Width="161" Margin="285,246,0,0" Height="63" FontWeight="Bold" FontSize="24" Click="SUPPRIMER_CLICK"/>
+
+    </Grid>
+</Window>
